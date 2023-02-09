@@ -1,0 +1,25 @@
+@media (max-width: 1100px) {
+  nav {
+    display: none;
+  }
+  .nav-bar {
+    display: block;
+  }
+  .log-in {
+    display: none;
+  }
+  .sign-up {
+    display: none;
+  }
+}
+@media (max-width: 685px) {
+  .card-wrappers .card {
+    margin-bottom: 25px;
+  }
+  .main-3 .box-3 .text-3 .h3 {
+    font-size: 18px;
+  }
+  .main-4 .pricing-card {
+    margin-bottom: 25px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
