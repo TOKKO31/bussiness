@@ -1,25 +1,88 @@
 @media (max-width: 1100px) {
-  nav {
-    display: none;
-  }
-  .nav-bar {
-    display: block;
-  }
-  .log-in {
-    display: none;
-  }
-  .sign-up {
+  .conteiner .main-section .nav-section .btn-wrappers {
     display: none;
   }
 }
+@media (max-width: 900px) {
+  .conteiner .main-section .nav-section .nav-list-1 {
+    display: none;
+  }
+  .conteiner .main-section .nav-section .nav-bar {
+    display: block;
+  }
+}
 @media (max-width: 685px) {
+  .conteiner .main-section .main-box .main-txt h1 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .conteiner .main-2 .main-2-text h2 {
+    font-size: 26px;
+  }
+  .conteiner .main-3 .box-3 .text-3 h3 {
+    font-size: 27px;
+    text-align: center;
+  }
+  .conteiner .main-3 .box-3 .text-3 p {
+    text-align: center;
+  }
+  .conteiner .main-4 .title-4 h2 {
+    font-size: 34px;
+  }
+  .conteiner .main-4 .title-4 p {
+    text-align: center;
+  }
+  .conteiner .main-4 .main-card-box .pricing-card .card-list h3 {
+    font-size: 21px;
+  }
+  .conteiner .main-4 .main-card-box .pricing-card .card-list .price {
+    font-size: 35px;
+  }
+  .conteiner .main-5 .main-5-text p {
+    font-size: 25px;
+    text-align: center;
+  }
+  .conteiner .main-5 .main-5-text .arrow img {
+    width: 44px;
+    height: 44px;
+  }
+  .conteiner .footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .conteiner .footer .footer-title a {
+    margin-top: 30px;
+  }
+  .conteiner .footer-buttom {
+    margin-top: 20px;
+  }
   .card-wrappers .card {
     margin-bottom: 25px;
+  }
+  .btn-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .btn-2 .try {
+    background-color: #00218f;
+    margin-bottom: 15px;
+  }
+  .btn-2 .watch {
+    background-color: #343434;
+  }
+  .main-3 .box-3 .text-3 {
+    display: flex;
+    align-items: center;
   }
   .main-3 .box-3 .text-3 .h3 {
     font-size: 18px;
   }
+  .main-3 .box-3 .text-3 .a2 {
+    margin-bottom: 30px;
+  }
   .main-4 .pricing-card {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=responsive.css.map */

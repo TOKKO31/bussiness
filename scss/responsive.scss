@@ -1,35 +1,145 @@
 @media (max-width: 1100px) {
-  nav {
-    display: none;
+  .conteiner {
+    .main-section {
+      .nav-section {
+        .btn-wrappers {
+          display: none;
+        }
+      }
+    }
   }
-  .nav-bar {
-    display: block;
-  }
-  .log-in {
-    display: none;
-  }
-  .sign-up {
-    display: none;
+}
+@media (max-width: 900px) {
+  .conteiner {
+    .main-section {
+      .nav-section {
+        .nav-list-1 {
+          display: none;
+        }
+        .nav-bar {
+          display: block;
+        }
+      }
+    }
   }
 }
 @media (max-width: 685px) {
+  .conteiner {
+    .main-section {
+      .main-box {
+        .main-txt {
+          h1 {
+            font-size: 32px;
+            line-height: 45px;
+          }
+        }
+      }
+    }
+    .main-2 {
+      .main-2-text {
+        h2 {
+          font-size: 26px;
+        }
+      }
+    }
+    .main-3 {
+      .box-3 {
+        .text-3 {
+          h3 {
+            font-size: 27px;
+            text-align: center;
+          }
+          p {
+            text-align: center;
+          }
+        }
+      }
+    }
+    .main-4 {
+      .title-4 {
+        h2 {
+          font-size: 34px;
+        }
+        p {
+          text-align: center;
+        }
+      }
+      .main-card-box {
+        .pricing-card {
+          .card-list {
+            h3 {
+              font-size: 21px;
+            }
+            .price {
+              font-size: 35px;
+            }
+          }
+        }
+      }
+    }
+    .main-5 {
+      .main-5-text {
+        p {
+          font-size: 25px;
+          text-align: center;
+        }
+        .arrow {
+          img {
+            width: 44px;
+            height: 44px;
+          }
+        }
+      }
+    }
+    .footer {
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+      .footer-title {
+        a {
+          margin-top: 30px;
+        }
+      }
+    }
+    .footer-buttom {
+      margin-top: 20px;
+    }
+  }
   .card-wrappers {
     .card {
       margin-bottom: 25px;
     }
   }
+  .btn-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    .try {
+      background-color: #00218f;
+      margin-bottom: 15px;
+    }
+    .watch {
+      background-color: #343434;
+    }
+  }
   .main-3 {
     .box-3 {
       .text-3 {
+        display: flex;
+        align-items: center;
         .h3 {
           font-size: 18px;
+        }
+        .a2 {
+          margin-bottom: 30px;
         }
       }
     }
   }
   .main-4 {
     .pricing-card {
-      margin-bottom: 25px;
+      margin-bottom: 20px;
     }
   }
 }
